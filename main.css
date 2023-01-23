@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:#AECFC2;
+    background-image: url(../img/fondoLogin.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    box-sizing: border-box;
+}
+.loginCaja{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    max-width: 320px;
+    padding: 2rem;
+    /* background-color:rgba(0, 0, 1); */
+    background-color: #2265ab;
+    border-radius: 1rem;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.6);
+}
+.loginCaja h2{
+    margin:20px;
+    padding: 0;
+    color: #FFFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.formlogin{
+    position: relative;
+}
+
+.formlogin input{
+    padding: 10px 0;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #2e2e2e;
+    outline-style: none;
+    color: #FFFF;
+    background:transparent; 
+}
+
+.formlogin input::placeholder{
+    color:#2e2e2e;
+}
+
+.loginCaja a {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 40px;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: beige;
+    font-size: 30px;
+    background-color:  #2e2e2e;
+    border-radius: 30px;
+    border: 2px solid #2e2e2e;
+}
+.loginCaja a:hover{
+    color:#2e2e2e;
+    background-color: beige;
+    transition: 0.4s;
+}
